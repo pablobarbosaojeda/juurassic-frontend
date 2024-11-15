@@ -1,0 +1,192 @@
+.navLink {
+  display: inline;
+  font-weight: bold;
+  text-transform: full-width;
+}
+header {
+  background-color: #d1c4b4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+header * {
+  display: inline;
+}
+header img {
+  height: 80px;
+}
+header li {
+  margin: 20px;
+}
+body {
+  height: 100%;
+  font-family: sans-serif;
+  background-image: url("../images/jurassic_park_jungle_island.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#root {
+  margin-top: 80px;
+  padding: 30px;
+  display: flex;
+}
+
+.main-container {
+  display: flex;
+  width: 96%;
+  position: fixed;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.component {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  padding-top: 0px;
+}
+
+.paddock-details-container, .dinosaur-details-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paddock-details-container {
+  margin-top: 47px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  color:  #d1c4b4;
+  background-color: Black;
+  border-radius: 8px;
+  PADDING: 10px;
+}
+
+.buttons {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h3 {
+  text-align: center;
+}
+
+.dinosaur-paddock-container {
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #d1c4b4;
+  height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dinosaur-paddock-wrapper {
+  width: 40%;
+}
+
+.form {
+    margin: auto;
+    background-color: #d1c4b4;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top:0px;
+    margin-top: 200px;
+}
+
+.container-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#chart_div {
+  padding-top: 20px;
+}
+
+#element {
+  background-color: white;
+  width: max-content;
+}
+
+#stats, #dinosaur-details, #dashboard-container, #paddock-details {
+  background-color: #d1c4b4;
+}
+
+#dinosaur-details, #paddock-details {
+  width: min-content;
+}
+
+#stats {
+  min-width: 160px;
+  padding-top: 10px;
+  height: max-content;
+  margin-top: 20px;
+}
+
+#curve-chart {
+  height: 500px;
+  width: 900px;
+  margin: auto;
+}
+
+#dashboard-container {
+  width: 100%;
+}
+
+td {
+  border: 1px solid Black;
+  border-radius: 2px;
+}
+
+
+button:hover {
+  background-color: black;
+  color:  #d1c4b4;
+  border-radius: 4px;
+}
+
+button {
+  padding-bottom: 2px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.dinosaur-image {
+  max-width: 400px;
+}
+
+#transfer-button {
+  position: relative;
+  left: 10%;
+}
