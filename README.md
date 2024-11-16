@@ -2,6 +2,9 @@
 
 Este proyecto es un sistema de gestión del parque temático Jurassic Park, diseñado como una aplicación web que permite a la administración gestionar la población de dinosaurios y realizar el seguimiento de los visitantes en el parque.
 
+# URL backend repository:https://github.com/pablobarbosaojeda/JurassicParkWorld.git
+# URL frotend repository: https://github.com/pablobarbosaojeda/juurassic-frontend.git
+
 ## Funcionalidades del Proyecto
 
 1. **Gestión de Dinosaurios**:
