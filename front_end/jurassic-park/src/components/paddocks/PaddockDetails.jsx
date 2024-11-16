@@ -74,7 +74,7 @@ const PaddockDetails = (props) => {
                                 <div key={colIndex} className="grid-cell">
                                     {isDinosaurHere && (
                                         <img
-                                            src="/images/DinoIcon.webp"
+                                            src="/images/Dino.png"
                                             alt="Dinosaur"
                                             className="dinosaur-icon"
                                         />
