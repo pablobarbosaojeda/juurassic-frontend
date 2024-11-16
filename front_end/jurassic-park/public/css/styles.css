@@ -99,7 +99,7 @@ h3 {
 
 .dinosaur-paddock-container {
   flex-direction: row;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 8px;
   margin: 20px;
   padding: 10px;
@@ -138,7 +138,7 @@ h3 {
 }
 
 #stats, #dinosaur-details, #dashboard-container, #paddock-details {
-  background-color: #d1c4b4;
+  background-color: #d1bfb4;
 }
 
 #dinosaur-details, #paddock-details {
