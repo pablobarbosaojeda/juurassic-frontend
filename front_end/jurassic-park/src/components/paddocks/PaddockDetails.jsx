@@ -39,6 +39,7 @@ const PaddockDetails = (props) => {
         Jungle: '/images/Jungla.webp',
         Rainforest: '/images/Rainforest.webp',
         Nublar: '/images/IslaNublar.webp',
+        Infirmary: '/images/Enfermeria.webp',
     };
     const backgroundImage = backgroundImages[paddock.name] || '/images/default.jpg';
 
