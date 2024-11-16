@@ -44,22 +44,26 @@ Asegúrate de tener instalados los siguientes programas:
 1. Inicia el servicio PostgreSQL:
    ```bash
    sudo service postgresql start
-   
+
+   ```bash
    sudo -u postgres -i
    createdb jurassicparkmanagement
 
 2. Ejecutar el Backend
+   ```bash
    cd JurassicParkWorld-master
-
+   
+   ```bash
    ./mvnw spring-boot:run
 
-3. Ejecutar el Frontend
+4. Ejecutar el Frontend
 
    ```bash
    cd juurassic-frontend-master/front_end
 
+```bash
    npm install
-
+```bash
    npm start
 
 
