@@ -41,31 +41,44 @@ Asegúrate de tener instalados los siguientes programas:
 
 ### 1. Configuración de la Base de Datos
 
-1. Inicia el servicio PostgreSQL:
-   ```bash
-   sudo service postgresql start
+* Inicia el servicio de PostgreSQL:
 
-   ```bash
-   sudo -u postgres -i
-   createdb jurassicparkmanagement
+  sudo service postgresql start
 
-2. Ejecutar el Backend
-   ```bash
-   cd JurassicParkWorld-master
-   
-   ```bash
-   ./mvnw spring-boot:run
+* Crea la base de datos de Jurassic Park:
 
-4. Ejecutar el Frontend
+  sudo -u postgres -i
+  createdb jurassicparkmanagement
 
-   ```bash
-   cd juurassic-frontend-master/front_end
+### 2. Configuración del Backend
 
-```bash
-   npm install
-```bash
-   npm start
+* Asegúrate de que el archivo `application.properties` del backend contiene la siguiente configuración, añadiendo la contraseña correspondiente al usuario `postgres` en tu máquina:
 
+ spring.datasource.password=<tu_contraseña_postgres>
 
+ 
+### 3. Ejecutar el Backend
 
+* Desde la carpeta `JurassicParkWorld-master` del backend, inicia el servidor backend:
+  
+./mvnw spring-boot:run
 
+### 4. Ejecutar el Frontend
+
+* Desde la carpeta `juurassic-frontend-master/front_end` del frontend, instala las dependencias e inicia el servidor del frontend:
+
+npm install
+npm start
+
+### 5. Verificar la Base de Datos
+
+* (Opcional) Verifica desde la terminal que la base de datos está funcionando correctamente:
+
+sudo -u postgres -i
+psql jurassicparkmanagement
+
+## Autores
+
+- Pablo Barbosa
+- Daniel Sousa
+- Adrián Puyo
